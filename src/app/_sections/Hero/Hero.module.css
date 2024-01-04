@@ -1,0 +1,29 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: url("../../../../public/test.jpg") 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.container_intro {
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100Vw;
+  position:relative;
+  z-index: 2;
+}

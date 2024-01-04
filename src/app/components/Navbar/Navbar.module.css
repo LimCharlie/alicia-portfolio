@@ -1,0 +1,12 @@
+.container {
+  height: 100px;
+  width: 100%;
+  padding: 0 30px;
+  z-index: 3;
+  position: fixed;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
