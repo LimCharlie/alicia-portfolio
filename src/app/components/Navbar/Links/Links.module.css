@@ -1,8 +1,9 @@
 .container {
-  width:100%;
+  width: 70%;
 }
 
 .link {
   margin-left: 40px;
   color: #FFF;
+  font-size: var(--normal-size);
 }

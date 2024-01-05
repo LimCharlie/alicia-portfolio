@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-green: #094040;
+  --secondary-green: #127d7d;
+  --tertiary-green: #19b3b3;
+  --primary-purple: #b1b0d8;
+  --secondary-purple: #d7d6eb;
+  --tertiary-purple: #f2f1f8;
+  --primary-yellow: #fff5aa;
+  --white: #fff;
+  --title-size: 34px;
+  --h1-size: 28px;
+  --h2-size: 22px;
+  --h3-size: 20px;
+  --headline-size: 17px;
+  --normal-size: 16px;
+  --subhead-size: 12px;
+  --small-text-1: 12px;
+  --smale-text-2: 11px;
+}
+
 *,
 *::before,
 *::after {
@@ -15,6 +35,15 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: var(--IBN_Plex_Mono-font);
+}
+
+h2 {
+  font-size: var(--h2-size);
+}
+
+p {
+  font-size: var(--normal-size);
 }
 
 img,

@@ -26,7 +26,7 @@ const Links = () => {
   ];
 
   return (
-    <div className={`${styles.container} flex justify-center`}>
+    <div className={`${styles.container} flex`}>
       {urls.map((url => (
         <Link className={styles.link} key={url.title} href={url.path}>{url.title}</Link>
       )))}
