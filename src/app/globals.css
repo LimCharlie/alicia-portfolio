@@ -76,3 +76,16 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+.title-primary {
+  color: var(--primary-green);
+  font-size: var(--title-size);
+}
+
+.bg-radiant {
+  background: linear-gradient(
+    90deg,
+    rgba(177, 176, 216, 0.72) 0.12%,
+    rgba(255, 245, 170, 0) 99.88%
+  );
+}
